@@ -1,0 +1,41 @@
+.imagenlogo{
+    max-width: 7rem;
+}
+/* .cartascontenedor{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 2rem;
+  
+} */
+.card {
+gap: 1rem;
+margin-top: 7rem;
+
+}
+.botonescarta{
+    display: flex;
+    justify-content: space-between;
+}
+.cartascontenedor {
+    overflow-x: auto; /* Habilita el desplazamiento horizontal */
+    white-space: nowrap; /* Evita que las cartas se desplacen verticalmente */
+  }
+  .carta {
+    display: inline-block; /* Hace que las cartas se muestren en línea horizontal */
+    margin-right: 10px; /* Espacio entre las cartas */
+  }
+  .propiedades{
+    text-transform: uppercase;
+  }
+  .navbar{
+    margin-bottom: 2rem;
+  }
+  .caracteristicas{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 2rem;
+    color:red
+    
+
+
+  }
